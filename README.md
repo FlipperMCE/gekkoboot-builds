@@ -14,9 +14,12 @@ Supported targets:
 gekkoboot will attempt to load DOLs from the following locations in order:
 - USB Gecko in Card Slot B
 - SD Gecko in Card Slot B
+- IDE-EXI in Card Slot B
 - USB Gecko in Card Slot A
 - SD Gecko in Card Slot A
+- IDE-EXI in Card Slot A
 - SD2SP2
+- M.2 Loader in SP1
 
 You can use button shortcuts to keep alternate software on quick access.
 When loading from an SD card, gekkoboot will look for and load different filenames
